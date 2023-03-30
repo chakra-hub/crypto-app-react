@@ -1,0 +1,58 @@
+.exchanges_container{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.exchange_item{
+    height: 180px;
+    width: 180px;
+    border: 0;
+    border-radius: 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    color: black;
+}
+.exchange_item:hover{
+    transform: scale(1.025);
+}
+
+.exchange_image{
+    width: 30%;
+    border-radius: 8px;
+}
+.navigation{
+    position: sticky;
+    bottom: 0;
+}
+.buttons{
+margin: 10px;
+border: 0;
+border-radius: 5px;
+background-color: black;
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+}
+.buttons:hover{
+    background-color: rgb(190, 190, 190);
+    border: 1px solid rgb(232, 231, 231);
+    color: black;
+}
+.buttons:disabled{
+    color: white;
+    background-color: gray;
+}
+.buttons:disabled:hover{
+    color: white;
+    background-color: gray;
+}
